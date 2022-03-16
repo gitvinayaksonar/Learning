@@ -1,0 +1,18 @@
+/* Selectors : id, class, tag */
+
+h1 {
+    background-color: aqua;
+    color: red;
+}
+
+p {
+    border: 1px dotted goldenrod;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+

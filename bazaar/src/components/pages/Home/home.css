@@ -1,0 +1,21 @@
+.bannerSection {
+    box-shadow: 0 6px 4px -4px #bdbaba;
+}
+
+.categorySection {
+    box-shadow: 0 3px 2px #e6e3e3;
+    width: 80%;
+    margin: 1.5rem auto;
+} 
+
+.homeContainer{
+    padding: 0 90px;
+}
+
+.carouselStyle { 
+    width: 80%; 
+    height: auto; 
+    margin: 0 auto;
+    padding-left: 10rem; 
+    padding-top: 1rem;
+}

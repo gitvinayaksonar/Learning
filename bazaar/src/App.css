@@ -1,0 +1,63 @@
+*{
+  box-sizing: border-box;
+}
+
+.app__stickedBar {
+  box-shadow: 0 3px 2px #e6e3e3;
+  width : 80%; 
+  padding: 0.5rem;
+}
+
+.app__logo {
+  width: 100%;
+}
+
+.app__navContainer{
+  margin-top: auto;
+}
+
+.app__listItem {
+  margin: 0.5rem;
+}
+
+.app__rightContainer { 
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+
+.app__rightNav {
+  margin-left: auto; 
+}
+
+.app__rightNav a{
+  padding : 0 0.5rem;
+  font-weight : bold;
+  font-size : 0.8rem;
+}
+
+.app__cart {
+  margin-left: auto;
+  width: 2rem;
+}
+
+
+@media screen and (max-width : 576px){
+  .app__navContainer{
+    font-size: 0.8rem;
+  }  
+
+  .app__rightNav a{
+    font-size: 0.5rem;
+  }
+
+  .app__rightContainer {
+    padding: 0px;
+  }
+
+  .app__cart {
+    margin-left: auto;
+    width: 1rem;
+  }
+
+}

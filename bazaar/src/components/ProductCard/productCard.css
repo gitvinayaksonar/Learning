@@ -1,0 +1,67 @@
+.productCard {    
+    padding: 0.5rem;
+    margin: 0.25rem;
+    border-bottom: 2px dashed #8382825c;
+    background-color : #8e99fb30;
+    box-shadow : 2px 0 1px #cec8c85c;
+    flex: 0 0 18%;
+    font-family: "Dosis", "Lato", "Arial";
+    width: 100%;
+    margin: auto;
+}
+
+.productCard__productHeading {
+    height: 2rem;
+    font-weight : bold;
+}
+
+.productCard__image {
+    max-width: 100%;
+    display: block;
+}
+
+.productCard__productDetails {
+    height : 5rem; 
+    background-color : #f3efefbf;
+    overflow: hidden;   
+    -webkit-line-clamp: 4;    
+    font-size : 0.6rem;
+    margin-top: 0.5rem;
+}
+
+.productCard__mrpBuyNowContainer {
+    height : 1rem;
+}
+
+.productCard__mrp {
+    width : 50%;
+    float : left;
+    font-size : 0.8rem; 
+    display :flex;
+    align-items : center;   
+    font-weight : bold;
+}
+
+.productCard__buyNow {
+    color : #fff;
+    float : right; 
+    width : 50%;
+    justify-content : center;
+    background-color : #cf0768;
+    cursor: pointer;
+    height : 1.8rem;
+    display :flex;
+    align-items : center;
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width : 576px) {
+    .productCard {
+        flex: 0 0 75%;
+    }
+
+    .productCard__image {
+        max-width: 50%;
+        margin: auto;
+    }
+}

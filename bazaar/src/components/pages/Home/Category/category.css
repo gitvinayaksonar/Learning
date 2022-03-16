@@ -1,0 +1,61 @@
+.categoryCardContainer {
+    box-shadow: 0 6px 4px -4px #bdbaba;
+    margin : 1.5rem auto;
+    font-family: "Dosis", "Lato", "Arial"; 
+
+}
+
+.categoryCardContainer__firstSection {       
+    display: flex;
+    justify-content: center;
+    vertical-align: center;
+    padding: 0.5rem;    
+} 
+
+.categoryCardContainer__firstSection img {
+    max-width: 60%;
+}
+
+.categoryCardContainer__secondSection {    
+    display : flex;
+    flex-flow : column;
+    justify-content: center;
+    align-items: center;
+}
+
+.categoryCardContainer__cartHeading {
+    text-align : center;    
+    font-weight : 700;
+    margin: 1rem;
+}
+
+.categoryCardContainer__cartPara  {    
+    text-align : center;
+    font-weight : 400;
+    font-size: smaller;
+    margin: 0.5rem;
+}
+
+.categoryCardContainer__exporeNow{
+    display : flex;      
+    justify-content : center;  
+    margin : 1rem auto;
+    font-size: smaller;
+    color : white;
+    background-color : #cf0768;
+    padding : 0.5rem;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:576px) {
+    .categoryCardContainer__cartHeading {
+        font-size: 1rem;
+    }
+    .categoryCardContainer__cartPara{
+        font-size: 0.5rem;
+    }
+    .categoryCardContainer__exporeNow{
+        font-size: 0.5rem;
+    }
+}

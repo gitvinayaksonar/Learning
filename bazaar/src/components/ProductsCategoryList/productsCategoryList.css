@@ -1,0 +1,20 @@
+.ProductsCategoryList__categoryTile {
+    display: flex;
+    vertical-align: center;
+    justify-content: center; 
+    
+    border: 2px solid whitesmoke;
+    box-shadow: 0 2px 0 #ada8a863;
+    color : #3c393978;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+
+.ProductsCategoryList__categoryTile p {
+    height: 2rem;
+    font-size: 0.8rem;
+    font-family: "Dosis", "Lato", "Arial";
+    font-weight: bold;
+    margin-top: auto;
+}  
